@@ -1,13 +1,14 @@
 # Java-Unit-Tests-make-easy-Random-Values-with-Podam
-Java  Unit Tests make easy Random Values with Podam
 
+Java Unit Tests make easy Random Values with Podam
 
 ## Introduction
 
 > In this article Java Unit Tests make easy - Random Values with PODAM, we discuss how to generate random values to object, collections we use on Junit test using PODAM library.
-## Full Article
-[Java Unit Tests make easy – Random Values with PODAM](https://onloadcode.com/java-unit-tests-make-easy-random-values-with-podam/)
 
+## Full Article
+
+[Java Unit Tests make easy – Random Values with PODAM](https://onloadcode.com/java-unit-tests-make-easy-random-values-with-podam/)
 
 ## Installation
 
@@ -18,6 +19,7 @@ We have to add podam dependencies to the spring boot project.
 Please use the latest version. When I’m writing this article, the latest version is 7.2.5.RELEASE
 
 For Maven
+
 ```xml
 <dependency>
 <groupId>uk.co.jemos.podam</groupId>
@@ -27,13 +29,16 @@ For Maven
 </dependency>
 
 ```
+
 For Gradle
+
 ```groovy
 testCompile group: 'uk.co.jemos.podam', name: 'podam', version: '7.2.5.RELEASE'
 ```
 
 ## Sample usages
-**Pojo using podom**  
+
+**Pojo using podom**
 
 ```java
   @Test
